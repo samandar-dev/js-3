@@ -409,20 +409,19 @@
 
 let n = 3;
 
-for (let i = 0; i <= n; i++) {
-  if (i % 3 == 0) {
-    console.log("Fizz 3 bolinadiganlar");
-  }
-  else if (i % 5 == 0) {
-    console.log("Buzz 5 bolinadiganlar");
-  }
-  else if (i % 3 == 0 && i % 5 == 0) {
-    console.log("FizzBuzz 3 va 5 bolinadiganlar");
-  }
-  else {
-    console.log("Bolinmaydi");
-  }
+if (n % 3 == 0) {
+  console.log("Fizz 3 bolinadiganlar");
 }
+else if (n % 5 == 0) {
+  console.log("Buzz 5 bolinadiganlar");
+}
+else if (n % 3 == 0 && n % 5 == 0) {
+  console.log("FizzBuzz 3 va 5 bolinadiganlar");
+}
+else {
+  console.log("Bolinmaydi");
+}
+
 
 
 
